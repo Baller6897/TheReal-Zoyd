@@ -14,9 +14,9 @@
 		CEE68F1D259915A500C54845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE68F1B259915A500C54845 /* Main.storyboard */; };
 		CEE68F1F259915A700C54845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE68F1E259915A700C54845 /* Assets.xcassets */; };
 		CEE68F22259915A700C54845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE68F20259915A700C54845 /* LaunchScreen.storyboard */; };
-		CEE68F2F25991ADD00C54845 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE68F2E25991ADD00C54845 /* DesignableView.swift */; };
 		CEE68F3225991DB000C54845 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE68F3125991DB000C54845 /* SignUpViewController.swift */; };
 		CEE68F3525991DC500C54845 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE68F3425991DC500C54845 /* HomeScreenViewController.swift */; };
+		CEE68F3A259947EB00C54845 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE68F39259947EB00C54845 /* DesignableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +29,9 @@
 		CEE68F1E259915A700C54845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE68F21259915A700C54845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE68F23259915A700C54845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEE68F2E25991ADD00C54845 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		CEE68F3125991DB000C54845 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CEE68F3425991DC500C54845 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		CEE68F39259947EB00C54845 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 				CEE68F1E259915A700C54845 /* Assets.xcassets */,
 				CEE68F20259915A700C54845 /* LaunchScreen.storyboard */,
 				CEE68F23259915A700C54845 /* Info.plist */,
-				CEE68F2E25991ADD00C54845 /* DesignableView.swift */,
+				CEE68F39259947EB00C54845 /* DesignableView.swift */,
 			);
 			path = Zoyd;
 			sourceTree = "<group>";
@@ -158,10 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				87D25ED1259928AF00BC7B7F /* LoginViewController.swift in Sources */,
-				CEE68F2F25991ADD00C54845 /* DesignableView.swift in Sources */,
 				CEE68F1A259915A500C54845 /* ViewController.swift in Sources */,
 				CEE68F16259915A500C54845 /* AppDelegate.swift in Sources */,
 				CEE68F18259915A500C54845 /* SceneDelegate.swift in Sources */,
+				CEE68F3A259947EB00C54845 /* DesignableView.swift in Sources */,
 				CEE68F3225991DB000C54845 /* SignUpViewController.swift in Sources */,
 				CEE68F3525991DC500C54845 /* HomeScreenViewController.swift in Sources */,
 			);

@@ -1,13 +1,13 @@
 //
-//  SignUpViewController.swift
+//  LoginViewController.swift
 //  Zoyd
 //
-//  Created by User on 12/27/20.
+//  Created by Khilan Surapaneni on 12/27/20.
 //
 
 import UIKit
 
-class SignUpViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

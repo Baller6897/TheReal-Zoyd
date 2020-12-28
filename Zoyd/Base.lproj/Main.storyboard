@@ -30,13 +30,13 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where Ideas Come Into Frution" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eUM-fr-Wjj">
-                                        <rect key="frame" x="0.0" y="136" width="414" height="23"/>
-                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="20"/>
+                                        <rect key="frame" x="0.0" y="136" width="414" height="19.5"/>
+                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="vFs-mM-34n">
-                                        <rect key="frame" x="0.0" y="167" width="414" height="356"/>
+                                        <rect key="frame" x="0.0" y="163.5" width="414" height="356"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKn-7i-vb7">
                                                 <rect key="frame" x="16" y="8" width="382" height="34"/>
@@ -50,14 +50,14 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O7z-5X-fwb" customClass="DesignableView" customModule="Zoyd" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Adress" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3EZ-uc-OVm">
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Adress" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3EZ-uc-OVm">
                                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
-                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="50" id="0ak-xC-hfC"/>
                                                                 </constraints>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits" spellCheckingType="no" enablesReturnKeyAutomatically="YES" textContentType="email"/>
+                                                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="email"/>
                                                             </textField>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -82,11 +82,11 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8cK-ry-LfQ" customClass="DesignableView" customModule="Zoyd" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="66" width="382" height="50"/>
                                                         <subviews>
-                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ahw-QG-cC7">
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ahw-QG-cC7">
                                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
-                                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                <textInputTraits key="textInputTraits" spellCheckingType="no" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
                                                             </textField>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -134,23 +134,23 @@
                                         <edgeInsets key="layoutMargins" top="8" left="16" bottom="8" right="16"/>
                                     </stackView>
                                     <view contentMode="scaleToFill" verticalHuggingPriority="200" translatesAutoresizingMaskIntoConstraints="NO" id="lIU-ML-ahw">
-                                        <rect key="frame" x="0.0" y="531" width="414" height="242"/>
+                                        <rect key="frame" x="0.0" y="527.5" width="414" height="245.5"/>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QrU-Jb-jlY">
                                         <rect key="frame" x="0.0" y="781" width="414" height="29"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="lfn-Lz-nll">
-                                                <rect key="frame" x="74.5" y="0.0" width="265.5" height="29"/>
+                                                <rect key="frame" x="61" y="0.0" width="292.5" height="29"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't Have an Account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhA-4p-Zun">
-                                                        <rect key="frame" x="0.0" y="0.0" width="197.5" height="29"/>
-                                                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="224.5" height="29"/>
+                                                        <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBE-TC-Nlc">
-                                                        <rect key="frame" x="201.5" y="0.0" width="64" height="29"/>
+                                                        <rect key="frame" x="228.5" y="0.0" width="64" height="29"/>
                                                         <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="17"/>
                                                         <state key="normal" title="Sign Up">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -195,8 +195,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="N7S-3J-bys">
-                                <rect key="frame" x="16" y="284" width="382" height="530"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ZOYDLAST" translatesAutoresizingMaskIntoConstraints="NO" id="yDt-Ec-go1">
+                                <rect key="frame" x="108" y="44" width="198" height="198"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="N7S-3J-bys">
+                                <rect key="frame" x="16" y="242" width="382" height="512"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create An Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fvs-r1-CXa">
                                         <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
@@ -205,16 +208,16 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mty-qc-HoA" customClass="DesignableView" customModule="Zoyd" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="80" width="382" height="50"/>
+                                        <rect key="frame" x="0.0" y="77" width="382" height="50"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UeX-iY-3Rf">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UeX-iY-3Rf">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
-                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="Z2R-i4-eFP"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" textContentType="name"/>
+                                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="name"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -237,13 +240,13 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ymi-Yc-zpB" customClass="DesignableView" customModule="Zoyd" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="160" width="382" height="50"/>
+                                        <rect key="frame" x="0.0" y="154" width="382" height="50"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LJd-T6-QMF">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LJd-T6-QMF">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
-                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" textContentType="name"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="name"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -266,13 +269,13 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wyo-mH-6Ef" customClass="DesignableView" customModule="Zoyd" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="240" width="382" height="50"/>
+                                        <rect key="frame" x="0.0" y="231" width="382" height="50"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5q3-1y-hZP">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5q3-1y-hZP">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
-                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" textContentType="email"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="email"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -295,13 +298,13 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qcN-jO-6EJ" customClass="DesignableView" customModule="Zoyd" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="320" width="382" height="50"/>
+                                        <rect key="frame" x="0.0" y="308" width="382" height="50"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q29-Ne-Eqw">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q29-Ne-Eqw">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
-                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -324,7 +327,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4t-rq-gcO">
-                                        <rect key="frame" x="0.0" y="400" width="382" height="50"/>
+                                        <rect key="frame" x="0.0" y="385" width="382" height="50"/>
                                         <color key="backgroundColor" red="0.0" green="0.84705882352941175" blue="0.71003155265671059" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="25"/>
                                         <state key="normal" title="Sign Up">
@@ -335,24 +338,21 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bwl-CA-IEV">
-                                        <rect key="frame" x="0.0" y="480" width="382" height="50"/>
+                                        <rect key="frame" x="0.0" y="462" width="382" height="50"/>
                                         <fontDescription key="fontDescription" name="CourierNewPS-BoldItalicMT" family="Courier New" pointSize="24"/>
                                         <color key="textColor" systemColor="systemRedColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ZOYDLAST" translatesAutoresizingMaskIntoConstraints="NO" id="yDt-Ec-go1">
-                                <rect key="frame" x="108" y="54" width="198" height="198"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JKM-BW-xQW"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="yDt-Ec-go1" firstAttribute="top" secondItem="JKM-BW-xQW" secondAttribute="top" id="1Nd-La-AVe"/>
                             <constraint firstItem="N7S-3J-bys" firstAttribute="centerX" secondItem="g9q-rS-LCZ" secondAttribute="centerX" id="9mJ-Ng-KRM"/>
-                            <constraint firstItem="yDt-Ec-go1" firstAttribute="top" secondItem="JKM-BW-xQW" secondAttribute="top" constant="10" id="G5u-2E-I79"/>
+                            <constraint firstItem="N7S-3J-bys" firstAttribute="top" secondItem="yDt-Ec-go1" secondAttribute="bottom" id="WLY-of-84A"/>
                             <constraint firstItem="N7S-3J-bys" firstAttribute="leading" secondItem="JKM-BW-xQW" secondAttribute="leading" constant="16" id="pbv-N8-j6d"/>
-                            <constraint firstItem="N7S-3J-bys" firstAttribute="top" secondItem="JKM-BW-xQW" secondAttribute="top" constant="240" id="sRo-Jx-g6P"/>
                             <constraint firstItem="JKM-BW-xQW" firstAttribute="trailing" secondItem="N7S-3J-bys" secondAttribute="trailing" constant="16" id="sYe-W8-gZS"/>
                             <constraint firstItem="yDt-Ec-go1" firstAttribute="centerX" secondItem="g9q-rS-LCZ" secondAttribute="centerX" id="stq-Gk-h6d"/>
                         </constraints>

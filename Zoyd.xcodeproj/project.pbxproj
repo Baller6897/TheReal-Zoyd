@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87370B05259A485B002C35F7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87370B04259A485B002C35F7 /* Utilities.swift */; };
 		87D25ED1259928AF00BC7B7F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D25ED0259928AF00BC7B7F /* LoginViewController.swift */; };
 		CEE68F16259915A500C54845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE68F15259915A500C54845 /* AppDelegate.swift */; };
 		CEE68F18259915A500C54845 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE68F17259915A500C54845 /* SceneDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87370B04259A485B002C35F7 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		87D25ED0259928AF00BC7B7F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CEE68F12259915A500C54845 /* Zoyd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoyd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE68F15259915A500C54845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87370B07259A4867002C35F7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				87370B04259A485B002C35F7 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		87D25ED3259928BD00BC7B7F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 			children = (
 				CEE68F15259915A500C54845 /* AppDelegate.swift */,
 				CEE68F17259915A500C54845 /* SceneDelegate.swift */,
+				87370B07259A4867002C35F7 /* Helpers */,
 				87D25ED3259928BD00BC7B7F /* View Controllers */,
 				CEE68F1B259915A500C54845 /* Main.storyboard */,
 				CEE68F1E259915A700C54845 /* Assets.xcassets */,
@@ -163,6 +174,7 @@
 				CEE68F18259915A500C54845 /* SceneDelegate.swift in Sources */,
 				CEE68F3A259947EB00C54845 /* DesignableView.swift in Sources */,
 				CEE68F3225991DB000C54845 /* SignUpViewController.swift in Sources */,
+				87370B05259A485B002C35F7 /* Utilities.swift in Sources */,
 				CEE68F3525991DC500C54845 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		87370B05259A485B002C35F7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87370B04259A485B002C35F7 /* Utilities.swift */; };
+		87AF55C2259B9F1C0061A33C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87AF55C1259B9F1C0061A33C /* GoogleService-Info.plist */; };
 		87D25ED1259928AF00BC7B7F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D25ED0259928AF00BC7B7F /* LoginViewController.swift */; };
 		CEE68F16259915A500C54845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE68F15259915A500C54845 /* AppDelegate.swift */; };
 		CEE68F18259915A500C54845 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE68F17259915A500C54845 /* SceneDelegate.swift */; };
@@ -18,10 +19,14 @@
 		CEE68F3225991DB000C54845 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE68F3125991DB000C54845 /* SignUpViewController.swift */; };
 		CEE68F3525991DC500C54845 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE68F3425991DC500C54845 /* HomeScreenViewController.swift */; };
 		CEE68F3A259947EB00C54845 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE68F39259947EB00C54845 /* DesignableView.swift */; };
+		F8FB69DCE4F7C1228CECDEA5 /* Pods_Zoyd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A6471D66C4AA7251C650BE /* Pods_Zoyd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2022DC31D38A77705BB1E754 /* Pods-Zoyd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zoyd.debug.xcconfig"; path = "Target Support Files/Pods-Zoyd/Pods-Zoyd.debug.xcconfig"; sourceTree = "<group>"; };
+		5B200D3E57DFA7C01D0BA5F6 /* Pods-Zoyd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zoyd.release.xcconfig"; path = "Target Support Files/Pods-Zoyd/Pods-Zoyd.release.xcconfig"; sourceTree = "<group>"; };
 		87370B04259A485B002C35F7 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		87AF55C1259B9F1C0061A33C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		87D25ED0259928AF00BC7B7F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CEE68F12259915A500C54845 /* Zoyd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoyd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE68F15259915A500C54845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		CEE68F3125991DB000C54845 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CEE68F3425991DC500C54845 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		CEE68F39259947EB00C54845 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		D9A6471D66C4AA7251C650BE /* Pods_Zoyd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zoyd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,12 +47,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8FB69DCE4F7C1228CECDEA5 /* Pods_Zoyd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55C7A3C562553C8C90664B92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2022DC31D38A77705BB1E754 /* Pods-Zoyd.debug.xcconfig */,
+				5B200D3E57DFA7C01D0BA5F6 /* Pods-Zoyd.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		74A3293FCCCE182AC3B50A00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9A6471D66C4AA7251C650BE /* Pods_Zoyd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		87370B07259A4867002C35F7 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +96,8 @@
 			children = (
 				CEE68F14259915A500C54845 /* Zoyd */,
 				CEE68F13259915A500C54845 /* Products */,
+				55C7A3C562553C8C90664B92 /* Pods */,
+				74A3293FCCCE182AC3B50A00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +119,7 @@
 				CEE68F1B259915A500C54845 /* Main.storyboard */,
 				CEE68F1E259915A700C54845 /* Assets.xcassets */,
 				CEE68F20259915A700C54845 /* LaunchScreen.storyboard */,
+				87AF55C1259B9F1C0061A33C /* GoogleService-Info.plist */,
 				CEE68F23259915A700C54845 /* Info.plist */,
 				CEE68F39259947EB00C54845 /* DesignableView.swift */,
 			);
@@ -105,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEE68F26259915A700C54845 /* Build configuration list for PBXNativeTarget "Zoyd" */;
 			buildPhases = (
+				CE1DE16510560414FD7821E3 /* [CP] Check Pods Manifest.lock */,
 				CEE68F0E259915A500C54845 /* Sources */,
 				CEE68F0F259915A500C54845 /* Frameworks */,
 				CEE68F10259915A500C54845 /* Resources */,
+				1233FAF621BAC5FABC72FA9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,12 +186,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE68F22259915A700C54845 /* LaunchScreen.storyboard in Resources */,
+				87AF55C2259B9F1C0061A33C /* GoogleService-Info.plist in Resources */,
 				CEE68F1F259915A700C54845 /* Assets.xcassets in Resources */,
 				CEE68F1D259915A500C54845 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1233FAF621BAC5FABC72FA9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zoyd/Pods-Zoyd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zoyd/Pods-Zoyd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zoyd/Pods-Zoyd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1DE16510560414FD7821E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zoyd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CEE68F0E259915A500C54845 /* Sources */ = {
@@ -319,6 +392,7 @@
 		};
 		CEE68F27259915A700C54845 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2022DC31D38A77705BB1E754 /* Pods-Zoyd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -329,7 +403,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = EZ.Zoyd;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khianAnuraag.Zoyd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,6 +412,7 @@
 		};
 		CEE68F28259915A700C54845 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B200D3E57DFA7C01D0BA5F6 /* Pods-Zoyd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -348,7 +423,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = EZ.Zoyd;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khianAnuraag.Zoyd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
